@@ -1,17 +1,19 @@
-
-.button{
-    background-color: rgb(rgba(255, 0, 0, 0.176), rgba(0, 128, 0, 0.34), rgba(0, 0, 255, 0.185));
-    color: brown;
-    margin-left: 10px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+.button {
+  background-color: cornflowerblue;
+  width: 80px;
+  height: 30px;
+  color: chartreuse;
+  margin-left: 60px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
   text-decoration: none;
   border-radius: 5px;
-  box-shadow: cadetblue;
+  border: none;
+  box-shadow: rgba(95, 158, 160, 0.087);
   cursor: pointer;
   transition: all 250ms var(--timingFn);
 }
 
 .button:hover {
-    color: rgba(255, 255, 255, 0.9);
-    background-color: rgb(20, 130, 20);
-  }
+  color: rgba(255, 255, 255, 0.9);
+  background-color: coral;
+}
